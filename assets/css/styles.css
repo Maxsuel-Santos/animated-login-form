@@ -135,6 +135,10 @@ img {
   cursor: pointer;
 }
 
+.login__box:nth-child(2) input {
+  padding-right: 1.8rem;
+}
+
 /* Input focus move up label */
 
 
