@@ -107,6 +107,27 @@ img {
   font-size: 1.25rem;
 }
 
+.login__input {
+  width: 100%;
+  padding-block: .8rem;
+  background: none;
+  color: var(--white-color);
+  position: relative;
+  z-index: 1;
+}
+
+.login__box-input {
+  position: relative;
+}
+
+.login__label {
+  position: absolute;
+  left: 0;
+  top: 13px;
+  font-weight: var(--font-medium);
+  transition: top .3s, font-size .3s;
+}
+
 /* Input focus move up label */
 
 
