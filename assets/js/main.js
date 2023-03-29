@@ -25,3 +25,16 @@ const showHiddenPass = (loginPass, loginEye) => {
 }
 
 showHiddenPass('login-pass', 'login-eye')
+
+/*=============== EMAIL VALIDATION ===============*/
+const emailInput = document.getElementById('email-input');
+const email = emailInput.value;
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const loginForm = document.querySelector('form');
+
+loginForm.addEventListener('submit', function(event) {
+    if (!emailRegex.test(email)) {
+        event.preventDefault(); // Prevents the form from being submitted
+        alert("E-mail inválido!")
+      }
+});
