@@ -196,12 +196,12 @@ img {
   text-decoration: underline;
 }
 
-
-
-
-
 /* Input focus move up label */
 
+.login__input:focus + .login__label {
+  top: -12px;
+  font-size: var(--small-font-size);
+}
 
 /* Input focus sticky top label */
 
