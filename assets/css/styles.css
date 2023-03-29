@@ -183,6 +183,21 @@ img {
   margin-bottom: 2rem;
 }
 
+.login__register {
+  text-align: center;
+}
+
+.login__register a {
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+}
+
+.login__register a:hover {
+  text-decoration: underline;
+}
+
+
+
 
 
 /* Input focus move up label */
