@@ -205,6 +205,10 @@ img {
 
 /* Input focus sticky top label */
 
+.login__input:not(:placeholder-shown).login__input:not(:focus) + .login__label {
+  top: -12px;
+  font-size: var(--small-font-size);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
