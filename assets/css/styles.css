@@ -139,6 +139,27 @@ img {
   padding-right: 1.8rem;
 }
 
+.login__check,
+.login__check-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login__check {
+  margin-bottom: 1.5rem;
+}
+
+.login__check-label,
+.login__forgot,
+.login__register {
+  font-size: var(--small-font-size);
+}
+
+
+
+
+
 /* Input focus move up label */
 
 
